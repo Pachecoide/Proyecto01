@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style>
+    body{
+  cursor: url(https://image.jimcdn.com/app/cms/image/transf/none/path/s224fc11c65cbc592/image/ice6e6bdd1b07a338/version/1362614531/image.gif ),auto ;
+ }
+ button{
+  cursor: url(https://image.jimcdn.com/app/cms/image/transf/none/path/s224fc11c65cbc592/image/i90719d5b3cfe1813/version/1362614531/image.gif),auto;
+ }
+  </style>
+</head>
+
+<body>
+  <a href="index.html">REGRESAR</a>
+  <center>
+<button id="uno">boom</button><br><br>
+<button id="dos">clap</button><br><br>
+<button id="tres">hihat</button><br><br>
+<button id="cuatro">kick</button><br><br>
+<button id="cinco">openhat</button><br><br>
+<button id="seis">ride</button><br><br>
+<button id="siete">snare</button><br><br>
+<button id="ocho">tink</button><br><br>
+<button id="nueve">tom</button><br><br>
+  </center>
+<script>
+  let uno = document.querySelector("#uno")
+
+  uno.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio")
+    etiquetaAudio.setAttribute("src", "boom.wav")
+    etiquetaAudio.play()
+  })
+  
+let dos = document.querySelector("#dos")
+  
+  dos.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio")
+    etiquetaAudio.setAttribute("src", "clap.wav")
+    etiquetaAudio.play()
+  })
+  
+  let tres= document.querySelector("#tres")
+  
+  tres.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio")
+    etiquetaAudio.setAttribute("src", "hihat.wav")
+    etiquetaAudio.play()
+  })
+  
+  let cuatro = document.querySelector("#cuatro")
+  
+  cuatro.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio")
+    etiquetaAudio.setAttribute("src", "kick.wav")
+    etiquetaAudio.play()
+  })
+  
+  let cinco = document.querySelector("#cinco")
+  
+  cinco.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio")
+    etiquetaAudio.setAttribute("src", "openhat.wav")
+    etiquetaAudio.play()
+  })
+  
+  let seis = document.querySelector("#seis")
+  
+  seis.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio")
+    etiquetaAudio.setAttribute("src", "ride.wav")
+    etiquetaAudio.play()
+  })
+  
+  let siete = document.querySelector("#siete")
+  
+  siete.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio")
+    etiquetaAudio.setAttribute("src", "snare.wav")
+    etiquetaAudio.play()
+  })
+  
+  let ocho = document.querySelector("#ocho")
+  
+  ocho.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio")
+    etiquetaAudio.setAttribute("src", "tink.wav")
+    etiquetaAudio.play()
+  })
+  
+  let nueve = document.querySelector("#nueve")
+  
+  nueve.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio")
+    etiquetaAudio.setAttribute("src", "tom.wav")
+    etiquetaAudio.play()
+  })
+</script>
+</body>
+
+</html>

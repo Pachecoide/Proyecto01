@@ -1,0 +1,105 @@
+.credencial{
+  color: #FFC8C8;
+  font-family: 'soure sans pro';
+  background-color: whitesmoke;
+  width: 8.56cm;
+  height: 5.398cm;
+  position: relative;
+  border-radius: 10px;
+    overflow: hidden;
+  z-index: 0;
+}
+
+.heading .logo, .heading .subtitle, .foto, img, .datos{
+  position: absolute;
+}
+
+.heading .logo {
+  letter-spacing: -0.4mm;
+  top: -0.7cm;
+  left: 0.6cm;
+  font-size: 1cm;
+}
+
+.datos, .heading .subtitle{
+  list-style: none;
+}
+
+.datos{
+  color: #00AAFF;
+  bottom: 0.2cm;
+  font-size: 0.29cm;
+  font-weight: 600;
+  left: -0.78cm;
+  letter-spacing: 0.1mm
+}
+
+.heading .subtitle{
+  font-size: 2.6mm;
+  left: 2.2cm;
+  line-height: 3mm;
+  font-weight: 600;
+  color: #22FCFF;
+ top: 25px;
+  
+}
+
+
+.messi{
+  
+    top: 70%;     
+    left: 5cm;
+   transform: translate(-25.5%, -32.2%) scale(0.6);
+  z-index: -1; 
+  
+}
+
+.cinco{
+  
+       
+   top: 50%;      
+   transform: translate(-25.5%, -32.2%) scale(0.6);
+  z-index: -1;
+}
+
+
+
+.foto{
+  height: 3.005cm;
+  width: 2.66cm;
+  right: 0.2mm;
+  top: 0.2mm;
+  background-color: white;
+}
+
+
+.credi{  color: black;
+  font-family: 'soure sans pro';
+  background-color: #E9FFC2;
+  width: 8.56cm;
+  height: 5.398cm;
+  position: relative;
+  border-radius: 10px;
+    overflow: hidden;
+  z-index: 0;
+}
+.subti{
+  top: 15px;
+  left: 12px;
+  color: #00FF93;
+
+  
+}
+
+.uno{
+  border: solid;
+  transform: translate(-25.5%, -32.2%) scale(0.6);
+  z-index: -1;
+  top:  20px;
+  left: 200px;
+}
+
+ body{
+  cursor: url(https://image.jimcdn.com/app/cms/image/transf/none/path/s224fc11c65cbc592/image/ice6e6bdd1b07a338/version/1362614531/image.gif ),auto ;
+
+ }
